@@ -1,7 +1,7 @@
 Docs on Clearance
 =================
 
-e.g. How to enable Markdown on your apache web server
+Enable your Apache web server to serve Markdown rendered as HTML
 
 ### Features
 
