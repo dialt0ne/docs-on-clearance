@@ -35,8 +35,12 @@ def data_cache(key)
 end
 
 print "Content-type: text/html\n\n"
+renderer = Redcarpet::Render::HTML.new(
+    :with_toc_data => true,
+    :xhtml => true,
+)
 markdown = Redcarpet::Markdown.new(
-    Redcarpet::Render::XHTML,
+    renderer,
     :autolink => true,
     :strikethrough => true,
     :superscript => true,
