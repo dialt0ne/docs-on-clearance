@@ -1,3 +1,5 @@
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=dialt0ne&url=https://github.com/dialt0ne/docs-on-clearance&title=docs-on-clearance&language=ruby&tags=github&category=software)
+
 Docs on Clearance
 =================
 
