@@ -47,6 +47,7 @@ markdown = Redcarpet::Markdown.new(
     :underline => true,
     :highlight => true,
     :fenced_code_blocks => true,
+    :tables => true,
 )
 uri = ENV['PATH_TRANSLATED']
 key = Digest::MD5.hexdigest(uri)
